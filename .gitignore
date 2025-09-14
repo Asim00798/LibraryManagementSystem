@@ -1,0 +1,40 @@
+# Build output
+bin/
+obj/
+publish/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.dbmdl
+
+# Rider IDE
+.idea/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Logs
+*.log
+
+# VSIX extensions
+*.vsix
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# User secrets (local development only)
+secrets.json
+
+# Temporary files
+*.tmp
+*.temp
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
