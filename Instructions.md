@@ -14,7 +14,7 @@ It manages books, users, staff, memberships, borrowings, and payments across mul
 ---
 
 ## 📂 Project Structure
-See [docs/Architecture.md](docs/Architecture.md) for a full diagram.
+See [Architecture.md](Architecture.md) for a full diagram.
 
 ---
 
