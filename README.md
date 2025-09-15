@@ -1,53 +1,78 @@
-﻿# Library Management System
+# 🚀 Library Management System API
 
-A professional library management system built with **ASP.NET Core**, **EF Core**, and a **layered Clean Architecture**.
+Library Management backend API built with **.NET 8 Web API** and **Clean Architecture**, designed for scalability, maintainability, and high performance.
 
-## Current Features
+---
 
--JWT-based login and authorization
--Role-based and permission-based authorization
--User registration and management
--Book, author, and borrowing management
--Reservation management
--Subscription management
--Offline payment and membership handling
--Automated audit logging, soft deletion, and real-time performer tracking
--Languages management
+## 🎯 Project Goal
 
-## Project Structure
+Build a smart platform for managing libraries, books, authors, borrowings, reservations, and memberships, with features like offline payments, subscriptions, multi-language support, and fine-grained role & permission management.
 
-See [docs/Architecture.md](docs/Architecture.md) for a full diagram.
+---
 
-## Technology Stack
+## 🏗 Architecture & Layers
 
-- **ASP.NET Core 8** (Web API)  
-- **Entity Framework Core**  
-- **SQL Server**  
-- **Identity + JWT Authentication**  
-- **Swagger / OpenAPI**  
+- **API Layer** – Handles HTTP requests, controllers, and routing  
+- **Host Layer** – Entry point, dependency injection, and service configuration  
+- **Application Layer** – Business logic, DTOs, services, authorization, and mappings  
+- **Domain Layer** – Entities, enums, and interfaces (core business rules)  
+- **Infrastructure Layer** – Database context, EF Core configurations, repositories, UnitOfWork, and data seeding  
 
-## Contributing
+This layered design ensures separation of concerns, testability, and maintainability.
 
-Contributions are welcome! 🎉
-Please fork this repository and submit a pull request with clear commit messages.
+---
 
+## 🛠 Tech Stack
 
-## Summary:
+- **.NET 8 Web API** – Clean Architecture  
+- **Entity Framework Core + SQL Server** – Data persistence  
+- **JWT Authentication** – Role & permission-based authorization  
+- **AutoMapper** – DTO ↔ Entity mapping  
+- **FluentValidation & Data Annotations** – Strong input validation  
+---
 
-Permission: Free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software.
+## 📦 Database & Key Entities
 
-Condition: Include the copyright notice and this permission notice in all copies or substantial portions of the software.
+- **Users** – Admin, Staff, Members  
+- **Books & Authors** – Management, reviews, and relationships  
+- **Borrowings & Reservations** – Track book loans and reservations  
+- **Subscriptions & Memberships** – Offline payment handling and plan management  
+- **Payments & Audit Logs** – Offline payment records and real-time tracking  
+- **Languages & Events** – Multi-language support and events management  
 
-Warranty: Provided "as is", without any warranty. The authors are not liable for any claims or damages.
+---
 
-## License
+## ⚡ Key Features (Implemented)
 
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.  
+- **Secure User Authentication** – JWT login  
+- **Role & Permission Management** – Dynamic access control  
+- **CRUD Operations** – Books, Authors, Borrowings, Reservations, Subscriptions  
+- **Offline Payments & Memberships** – Track and manage payments  
+- **Audit Logging & Soft Delete** – Real-time tracking of performed actions  
+- **Multi-language Management** – Add and manage supported languages  
 
-**Summary:**
+---
 
-- **Permission**: Free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software.  
-- **Condition**: Include the copyright notice and this permission notice in all copies or substantial portions of the software.  
-- **Warranty**: Provided "as is", without any warranty. The authors are not liable for any claims or damages.  
+## 🔮 Future Enhancements
 
-For more information, see the full text of the [MIT License](https://opensource.org/licenses/MIT).
+- **Staff Management** – Full staff CRUD and attendance tracking  
+- **Events Management** – Library events and scheduling  
+- **Notifications System** – Real-time alerts for members and staff  
+- **OTP & SMS Authentication** – Enhanced login security  
+- **Online Payment Integration** – Secure online payment gateways  
+- **Mini Social Platform** – Author profiles, reviews, and interactions  
+
+---
+
+## 💡 Why This Project Matters
+
+- Implements modern backend best practices  
+- Scalable, maintainable, and testable architecture  
+- Secure authentication and authorization  
+- Integrates real-world library operations and offline payment management  
+
+---
+
+## 🏷 Tags
+
+`.NET 8` `.AspNetCore` `.WebAPI` `.CSharp` `.CleanArchitecture` `.JWT` `.EFCore` `.FluentValidation` `.MailKit` `.Serilog` `.Localization` `.SoftwareEngineering` `.LibraryManagement` `.BackendDevelopment` `.MultiLayeredArchitecture` `.DatabaseDesign`
