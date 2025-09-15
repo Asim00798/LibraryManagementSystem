@@ -20,6 +20,8 @@ Build a smart platform for managing libraries, books, authors, borrowings, reser
 
 This layered design ensures separation of concerns, testability, and maintainability.
 
+## 📂 Project Structure
+See [Architecture.md](Architecture.md) for a full diagram.
 ---
 
 ## 🛠 Tech Stack
@@ -39,7 +41,8 @@ This layered design ensures separation of concerns, testability, and maintainabi
 - **Subscriptions & Memberships** – Offline payment handling and plan management  
 - **Payments & Audit Logs** – Offline payment records and real-time tracking  
 - **Languages & Events** – Multi-language support and events management  
-
+## 📂 Project Database Design
+See [DatabaseDesign.md](DatabaseDesign.md) for a full diagram.
 ---
 
 ## ⚡ Key Features (Implemented)
