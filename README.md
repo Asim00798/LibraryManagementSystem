@@ -1,4 +1,4 @@
-# 🚀 Library Management System API
+# 🚀 Library Management System Web API
 
 Library Management backend API built with **.NET 8 Web API** and **Clean Architecture**, designed for scalability, maintainability, and high performance.
 
